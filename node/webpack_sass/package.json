@@ -1,0 +1,32 @@
+{
+  "name": "project_name",
+  "version": "0.0.1",
+  "description": "project_desc",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --open --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "qyecst",
+  "license": "Unlicense",
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "image-webpack-loader": "^4.6.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
